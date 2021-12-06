@@ -72,18 +72,18 @@ public class BST_Traversal_Iterative {
             }
 
             else {
-				root = nodeStack.peek();
+		root = nodeStack.peek();
 				
                 if (root.right == null || root.right == prev) {
-				    System.out.print(root.data + " ");
-				    nodeStack.pop();
-				    prev = root;
-				    root = null;
-				}
+		    System.out.print(root.data + " ");
+		    nodeStack.pop();
+		    prev = root;
+		    root = null;
+		}
 				
                 else
-				    root = root.right;
-			}
+		    root = root.right;
+	    }
         }
 
         System.out.println();
