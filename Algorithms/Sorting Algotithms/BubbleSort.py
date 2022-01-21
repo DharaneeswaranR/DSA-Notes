@@ -9,6 +9,3 @@ def bubble_sort(arr):
 arr = [int(x) for x in input().split()]
 bubble_sort(arr)
 print(*arr)
-
-# Ip: 20 50 40 30 10
-# Op: 10 20 30 40 50
